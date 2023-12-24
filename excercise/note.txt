@@ -1,0 +1,3 @@
+day_1 #1
+    create one simple random project using bootstrap. You can create confimation  modal,
+    alert box, nav bar etc. (it should be live). Ref-image_1.
