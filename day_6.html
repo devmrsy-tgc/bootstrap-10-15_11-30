@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./day_6.css" rel="stylesheet" />
+    <title>Css variable</title>
+    <script>
+        function changeColor(primaryColor,secondayColor,bgColor) {
+            document.documentElement.style.setProperty('--primaryColor',primaryColor)
+            document.documentElement.style.setProperty('--secondayColor',secondayColor)
+            document.documentElement.style.setProperty('--bgColor',bgColor)
+        }
+    </script>
+</head>
+
+</body>
+    <h1>this is heading</h1>
+    <section>This is section</section>
+
+    <button onclick="changeColor('coral','black','blue')">Change color</button>
+    <button onclick="changeColor('pink','red','orange')">Change color</button>
+<body>
+
+</html>
